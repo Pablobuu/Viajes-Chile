@@ -48,7 +48,9 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#Quienes-somos">Quiénes somos</a>
+                  <a class="nav-link d-none d-lg-block" href="#Quienes-somos"
+                    >Quiénes somos</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#destacados">Destacados</a>
@@ -113,7 +115,7 @@
         <!-- carousel -->
       </header>
       <!-- QUIÉNES SOMOS -->
-      <section id="Quienes-somos">
+      <section id="Quienes-somos" class="d-none d-lg-block">
         <div class="container">
           <div class="container text-center pt-4">
             <h2 class="fs-3 fw-light">¿QUIÉNES SOMOS?</h2>
@@ -125,7 +127,7 @@
             <div class="row">
               <div class="col-lg-4 mt-4">
                 <div class="container bg-info">
-                  <i class="fa-solid fa-plane fa-2x"></i>
+                  <i class="fa-solid fa-plane fa-2x p-1"></i>
                 </div>
                 <div class="container">
                   <p class="text-start">
@@ -159,14 +161,14 @@
                     soluta voluptatem et tempore.
                   </p>
                   <div class="container bg-info">
-                    <i class="fa-solid fa-mountain fa-2x"></i>
+                    <i class="fa-solid fa-mountain fa-2x p-1"></i>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 mt-4">
                 <div class="container">
                   <div class="container bg-info">
-                    <i class="fa-solid fa-route fa-2x"></i>
+                    <i class="fa-solid fa-route fa-2x p-1"></i>
                   </div>
                   <p class="text-start">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -191,7 +193,7 @@
 
       <!-- DESTACADOS -->
       <section id="destacados">
-        <div class="container mt-5">
+        <div class="container mt-5 p-4">
           <div class="container text-center pt-4">
             <h2 class="fs-3 fw-light">DESTACADOS</h2>
           </div>
@@ -205,7 +207,7 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Lorem ipsum dolo sit amet</h5>
+                  <h5 class="card-title">Parque Nacional Torres del Paine</h5>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsam dolor natus nihil ullam vel, excepturi corporis,
@@ -222,7 +224,7 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Consectetur adipisicing elit</h5>
+                  <h5 class="card-title">Laguna Lejía, San Pedro de Atacama</h5>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsam dolor natus nihil ullam vel, excepturi corporis,
@@ -239,9 +241,7 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">
-                    Sed do eiusmod tempor incididunt ut labore
-                  </h5>
+                  <h5 class="card-title">Laguna Chaxa, Desierto de Atacama</h5>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsam dolor natus nihil ullam vel, excepturi corporis,
@@ -258,7 +258,7 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Ut enim ad minim veniam</h5>
+                  <h5 class="card-title">Bosques nativos de Frutillar</h5>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsam dolor natus nihil ullam vel, excepturi corporis,
@@ -325,13 +325,33 @@
           <h3 class="fw-light">VIAJES CHILE</h3>
           <div class="fa-2x">
             <a href="https://github.com/Pablobuu/Viajes-Chile"
-              ><i class="fa-brands fa-square-github"></i
+              ><i
+                class="fa-brands fa-square-github"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Github"
+              ></i
             ></a>
             <a href="https://www.linkedin.com/in/pabloburgoscavada/"
-              ><i class="fa-brands fa-linkedin"></i
+              ><i
+                class="fa-brands fa-linkedin"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="LinkedIn"
+              ></i
             ></a>
-            <i class="fa-brands fa-square-twitter"></i>
-            <i class="fa-brands fa-square-facebook"></i>
+            <i
+              class="fa-brands fa-square-twitter"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-title="Twitter"
+            ></i>
+            <i
+              class="fa-brands fa-square-facebook"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              data-bs-title="Facebook"
+            ></i>
           </div>
         </div>
       </div>
