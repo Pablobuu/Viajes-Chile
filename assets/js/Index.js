@@ -5,7 +5,7 @@ const tooltipList = [...tooltipTriggerList].map(
   (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
 );
 
-/*Cambia el status de Active en la barra de Navegación al link activo*/
+// Cambia el status de Active en la barra de Navegación al link activo
 $("ul li a").click(function () {
   $("li a").removeClass("active");
   $(this).addClass("active");
@@ -17,3 +17,8 @@ $(document).ready(function () {
     $(".card-text").toggle("fast", "linear");
   });
 });
+
+// Mensaje de alerta al enviar formulario
+function alertaFormulario() {
+  alert("Tu mensaje ha sido enviado correctamente");
+}
